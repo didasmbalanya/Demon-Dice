@@ -1,0 +1,18 @@
+<h1>DICE GAMBLING GAME</h1>
+        <div id = 'buttonDiv'>
+            <h3>Rules</h3>
+            <p>1. If a 1 is rolled, that is bad luck. The next roll counts as 0.</p>
+            <p>2. If a 6 is rolled, that is good luck. The next roll is amplified by a factor of 2. </p>
+            <p>3. You need to roll 3 or more times to get a result.</p>
+            <p>Press the button below to roll your dice</p>
+            <br>
+            <button type="button"
+            onclick="clickRoll()">Roll Dice</button>
+            <p >You just rolled yourself a: <span id = "currentRoll"></span> </p>
+            <p>This are your previous rolls for this round incase you forget:  </p>
+            <p id = 'allRolls'></p>
+            <p>Once you roll 3 or more times press the sumbit button to get your result</p>  
+        </div>
+        <div id = 'results'>
+            <button type ="submit" onclick="playing()" >Get total</button>
+            <p>The Dice gambling game gives you a: <span id = 'total'></span> </p>

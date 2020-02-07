@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+    text-align: left;
+    background-image: url("https://img.fonwall.ru/o/69/fonwall_ru_kubiki_dva_igra_kosti_seryiy_fon_ComputerDesktopWallpapersCollection434_012.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+}
+h1{
+    text-align: left;
+    color: rgb(0, 89, 255) ;
+    font-family: courier;
+    font-weight: bold;
+}
+
+span{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: red;
+    font-size: 50px
+}
